@@ -34,7 +34,7 @@
                         <img src="assets/images/logos/kuzok-logo.png" alt="" width="112" height="28">
                     </a>
 
-                    <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+                    <!-- <a class="navbar-item is-hidden-desktop is-hidden-tablet">
                         <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
                             <svg width="1000px" height="1000px">
                                 <path class="path1"
@@ -47,7 +47,7 @@
                             </svg>
                             <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
                         </div>
-                    </a>
+                    </a> -->
 
                     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
                         data-target="navbar-menu">
@@ -60,7 +60,7 @@
                 <div id="navbar-menu" class="navbar-menu is-static">
 
                     <div class="navbar-start">
-                        <a class="navbar-item is-hidden-mobile">
+                        <!-- <a class="navbar-item is-hidden-mobile">
                             <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
                                 <svg width="1000px" height="1000px">
                                     <path class="path1"
@@ -73,16 +73,16 @@
                                 </svg>
                                 <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
                             </div>
-                        </a>
+                        </a> -->
                     </div>
 
                     <div class="navbar-end">
                         <a class="navbar-item is-secondary" href="#features-section">
                             Features
                         </a>
-                        <a href="#" class="navbar-item is-secondary">
+                        <!-- <a href="#" class="navbar-item is-secondary">
                             Pricing
-                        </a>
+                        </a> -->
                         <div class="navbar-item has-dropdown is-hoverable">
                             <a class="navbar-link">
                                 Products
@@ -119,7 +119,7 @@
                         <img src="assets/images/logos/kuzok-logo.png" alt="" width="112" height="28">
                     </a>
 
-                    <a class="navbar-item is-hidden-desktop is-hidden-tablet">
+                    <!-- <a class="navbar-item is-hidden-desktop is-hidden-tablet">
                         <div id="menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
                             <svg width="1000px" height="1000px">
                                 <path class="path1"
@@ -132,7 +132,7 @@
                             </svg>
                             <button id="menu-icon-trigger" class="menu-icon-trigger"></button>
                         </div>
-                    </a>
+                    </a> -->
 
                     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
                         data-target="cloned-navbar-menu">
@@ -145,7 +145,7 @@
                 <div id="cloned-navbar-menu" class="navbar-menu is-fixed">
 
                     <div class="navbar-start">
-                        <a class="navbar-item is-hidden-mobile">
+                        <!-- <a class="navbar-item is-hidden-mobile">
                             <div id="cloned-menu-icon-wrapper" class="menu-icon-wrapper" style="visibility: visible;">
                                 <svg width="1000px" height="1000px">
                                     <path class="path1"
@@ -158,16 +158,16 @@
                                 </svg>
                                 <button id="cloned-menu-icon-trigger" class="menu-icon-trigger"></button>
                             </div>
-                        </a>
+                        </a> -->
                     </div>
 
                     <div class="navbar-end">
                         <a class="navbar-item is-secondary" href="#features-section">
                             Features
                         </a>
-                        <a href="#" class="navbar-item is-secondary">
+                        <!-- <a href="#" class="navbar-item is-secondary">
                             Pricing
-                        </a>
+                        </a> -->
                         <div class="navbar-item has-dropdown is-hoverable">
                             <a class="navbar-link">
                                 Products
@@ -461,6 +461,8 @@
             <div class="title-wrapper has-text-centered">
                 <h2 class="title is-2 is-spaced">Drop us a line or two </h2>
                 <h3 class="subtitle is-5 is-muted">We'd love to hear from You</h3>
+                <p class="subtitle is-6 is-muted">Or check out the <span><a href="#section-footer">contact</a></span>
+                    section below</p>
                 <div class="divider is-centered"></div>
             </div>
 
@@ -531,11 +533,7 @@
 
 
 
-
-
-
-
-    <footer class="footer footer-dark">
+    <footer id="section-footer" class="footer footer-dark">
         <div class="container">
             <div class="columns">
                 <div class="column">
@@ -546,18 +544,28 @@
                 <div class="column">
                     <div class="footer-column">
                         <div class="footer-header">
-                            <h3>Product</h3>
+                            <h3>Products</h3>
                         </div>
                         <ul class="link-list">
-                            <li><a href="#">Discover features</a></li>
-                            <li><a href="#">Why choose our Product ?</a></li>
-                            <li><a href="#">Compare features</a></li>
-                            <li><a href="#">Our Roadmap</a></li>
-                            <li><a href="#">Request features</a></li>
+                            <li><a href="#section-two">
+                                    Custom Deep Learning APIs
+                                </a></li>
+                            <li><a href="#section-two">
+                                    Training and validation data
+                                </a></li>
+                            <li><a href="#section-two">
+                                    Data annotation
+                                </a></li>
+
+                            <li><a href="#features-section">
+                                    Features
+                                </a></li>
+                            <!-- <li><a href="#">Our Roadmap</a></li>
+                            <li><a href="#">Request features</a></li> -->
                         </ul>
                     </div>
                 </div>
-                <div class="column">
+                <!-- <div class="column">
                     <div class="footer-column">
                         <div class="footer-header">
                             <h3>Docs</h3>
@@ -569,8 +577,8 @@
                             <li><a href="#">Developers</a></li>
                         </ul>
                     </div>
-                </div>
-                <div class="column">
+                </div> -->
+                <!-- <div class="column">
                     <div class="footer-column">
                         <div class="footer-header">
                             <h3>Blogroll</h3>
@@ -579,6 +587,20 @@
                             <li><a href="#">Latest News</a></li>
                             <li><a href="#">Tech articles</a></li>
                             <li><a href="#">Video Blog</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+                <div class="column">
+                    <div class="footer-column">
+                        <div class="footer-header">
+                            <h3>Contact</h3>
+                        </div>
+                        <ul class="link-list">
+                            <li><a href="mailto:sales@kuzok.com" target="_blank">
+                                    sales@kuzok.com
+                                </a></li>
+                            <li><a href="tel:+916291052198">+91 62910 52198</a></li>
+                            <li><a href="tel:+917004798230">+91 70047 98230</a></li>
                         </ul>
                     </div>
                 </div>
@@ -601,6 +623,16 @@
                             </nav>
 
                         </div>
+                        <!-- <div class="footer-header">
+                            <h3>Contact</h3>
+                            <ul class="link-list">
+                                <li><a href="mailto:sales@kuzok.com" target="_blank">
+                                        sales@kuzok.com
+                                    </a></li>
+                                <li><a href="tel:+916291052198">+91 62910 52198</a></li>
+                                <li><a href="tel:+917004798230">+91 70047 98230</a></li>
+                            </ul>
+                        </div> -->
                     </div>
                 </div>
             </div>
