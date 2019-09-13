@@ -18,6 +18,9 @@ $(document).ready(function () {
         });
     }
 
+    //Bootstrap Carousel
+    jQuery.fn.carousel.Constructor.TRANSITION_DURATION = 200  // 2 seconds
+
     //Animate left hamburger icon and open sidebar
     $('.menu-icon-trigger').click(function (e) {
         e.preventDefault();

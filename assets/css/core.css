@@ -1,3 +1,9 @@
+.carousel-inner .carousel-item {
+  transition: -webkit-transform .2s ease;
+  transition: transform .2s ease;
+  transition: transform .2s ease, -webkit-transform .2s ease;
+}
+
 .navbar.is-fresh {
   position: relative;
   min-height: 3.8rem;
